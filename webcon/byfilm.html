@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByFilm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h2 class="logo"><a href="index.html">CorTic</a></h2>
+        </div>
+        <div class="menu">
+            <ul class="hmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="webcon/About.html">About</a></li>
+                <li><a href="#">Event</a>
+                    <ul class="sub-menu">
+                        <li><a style="margin-left: -110%;" href="webcon/Free.html">Freefilm</a></li>
+                        <li><a style="margin-left: -110%;" href="webcon/byfilm.html">Byfilm</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Vlogs</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="search-box">
+            <input type="text" class="search-txt" name="" placeholder="Nhập và tìm">
+             <a href="#" class="search-btn"><i class="fas-fa-search"><button  type="button" >Search</button></i></a>
+        </div>
+            
+        
+        <div>
+            <button class="nut-mo-chatbox" onclick="moForm()">Chat</button>
+            <div class="chatbox" id="myform">
+                <form action="" class="form-container">
+                    <h1>ChatBox</h1>
+                    <label for="msg"><b>Lời Nhắn</b></label>
+                    <textarea placeholder="Bạn hãy nhập lời nhắn..." name="msg" required></textarea>
+                    <button type="submit" class="gui">Gửi</button>
+                    <button type="button" class="nut-dong-chatbox" onclick="dongform()">Đóng</button>
+                    <script>
+                        function moForm(){
+                             document.getElementById("myform").style.display = "block";
+                        }
+                        function dongform(){         
+                            document.getElementById("myform").style.display = "none";
+                        }
+                    </script>
+                </form>
+
+
+            </div>
+            
+        </div>
+        <div class="erro">
+            <h1 style="color: aqua;"><marquee behavior="" direction="">       Comming son!!!!! <br><p style="font-size: 10;">(Chức năng chưa hoạt động)</p></marquee></h1>
+        </div>
+    </div>
+
+</body>
+</html>
