@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.5)50%),url(../anh/pexels-photo-1591447.jpeg);
+    width: 100%;
+    background-position: center;
+    background-size: cover ;
+    height: 100vh;
+    font-family: sans-serif;
+
+}
+
+.navbar{
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+    
+
+}
+.logo a{
+    text-decoration: none;
+    color: #ff7200;
+    font-size: 40px;
+    font-family: cursive;
+    float: left;
+    padding-top: .5%;
+    cursor: pointer;
+}
+ul{
+    float: left;
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 19px;
+} 
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+} 
+ul li a:hover{
+    color: #ff7200;
+} 
+.search-box{
+    float: right;
+    width: 250px;
+    background: #fff;
+    height: 30px;
+
+    padding: 9px;
+
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-right: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fas-fa-search button{
+    border-radius: 15%;
+    
+}
+.search-box .search-txt{
+    width: 190px;
+    padding: 0 10px;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .6px;
+}
+.search-btn{
+    text-decoration: none;
+    color: #000;
+
+
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    cursor: pointer;
+    font-family: cursive;
+    color: #fff;
+    font-size: 85px;
+}
+.button a{
+    text-decoration: none;
+}
+.button{
+    position: absolute;
+    top: 95%;
+    left: 15%;
+    transform: translate(-50, -50%);
+}
+.btn{
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+.btn:hover{
+    background-color: #ff7200;
+    color: #000;
+
+}
+.sub-menu{
+    
+    display: none;
+    border-radius: 5px;
+    list-style: none;
+    position: relative;
+    margin-left: 100%px;
+    padding: 0;
+    
+
+    
+}
+ul.hmenu>li>a:hover{
+    background-color: white;
+    
+}
+ul.hmenu>li{
+    float: left;
+    position: relative;
+}
+ul.hmenu>li:hover>.sub-menu{
+    display: block;
+    background-image: image-set(width:"10") url(/ASM2/anh/pexels-photo-1591447.jpeg);
+    
+    border: 20px none;
+    margin-left: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    
+}
+.nut-mo-chatbox{
+    background-color: #ff7200;
+    color: #fff;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 270px;
+}
+/*ẩn chat box */
+.chatbox{
+    font-family: cursive;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+.form-container{
+    max-width: 300px;
+    padding: 10px;
+    background-color: #fff;
+}
+.form-container textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+.form-container textarea:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.form-container .gui{
+    background-color: #ff7200;
+    color: #f1f1f1;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+.form-container .nut-dong-chatbox{
+    background-color: #ff7200;
+}
+.form-container .gui:hover, .nut-mo-chatbox:hover{
+    opacity: 1;
+}
+.adrr{
+   
+    color: #fff;
+    padding: 56px 20px;
+    position: fixed;
+    bottom: 23px;
+    width: 270px;
+    
+    
+}
+.vitri{
+    text-decoration: none;
+    padding: 5px -500px;
+    position: fixed;
+    bottom: 23px;
+    width: 270px;
+}
+.About h1{
+    cursor: pointer;
+    font-family: cursive;
+    color: #fff;
+    font-size: 30px;
+}
+.About{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.one p i {
+    cursor: pointer;
+    font-family: cursive;
+    color: #fff;
+    font-size: 15px;
+}
+.one{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.freeF{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+.phim1{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.anh2{
+    position: absolute;
+    top: 54%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.anh3{
+    position: absolute;
+    top: 54%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+.erro{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
